@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
       
     }
 
-    public void irTelaMaisInfo(View view) {
-        Intent itTelaMaisInfo = new Intent(this, TelaMaisInfo.class);
-        itTelaMaisInfo.putExtra("p_imc", imc);
-        startActivity(itTelaMaisInfo);
+    public void irTelaResult(View view) {
+        Intent itTelaResult = new Intent(this, TelaResult.class);
+        itTelaResult.putExtra("p_imc", imc);
+        startActivity(itTelaResult);
     }
 }

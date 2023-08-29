@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.text.DecimalFormat;
 
-public class TelaMaisInfo extends AppCompatActivity {
+public class TelaResult extends AppCompatActivity {
 
     private TextView txtImcResultado, txtTaxa;
     private Double imc;
